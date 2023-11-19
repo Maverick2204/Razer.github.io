@@ -1,0 +1,448 @@
+ *{
+    margin:0;
+    font-family: Roboto, 'Helvetica Neue', Arial;
+    border: border-box;
+ }
+.navbar{
+    height: 3.75rem;
+    background-color: #000000;
+    color: #888888;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+ }
+ .logo {
+    background-image:url(https://assets2.razerzone.com/images/phoenix/razer-ths-logo.svg);
+    background-size: cover;
+    height: 2.188rem;
+    width: 2.188rem;
+    align-items: center;
+    max-width: 100%;
+    cursor: pointer;
+ }
+.border {
+    border: 0.094rem; solid :transparent;
+}
+.border:hover{
+    border:0.094rem solid white;
+}
+.nav-search i{
+    display: flex;
+    height:1.063rem ;
+    width:1.25rem ;
+}  
+.nav-cart i{
+    display: flex;
+    height: 0.438rem;
+    width: 1rem;
+    align-items: center;
+    }
+.hero-section{
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/holiday-gift-guide-2023-homepage-large-2x.webp);
+    background-size: cover;
+    height: 43.75rem ;
+align-items: center;
+max-width: 100%;
+background-position: center;
+}
+.hero-msg{
+    color: white;
+    font-size:medium;
+    background-color: #666666;
+    align-items:center;
+    justify-content: space-evenly;
+    height: 2.5rem;
+    text-align: center;
+}
+.hero-msg1{
+   font-size: 300%; 
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 1.875rem;
+   }
+.hero-msg2{
+    font-size:x-large;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0.625rem;
+}
+.hero-msg3{
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    margin-top: 0.625rem;
+}
+.hero-section1{
+    background-image:url(https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/razer-immersive-campaign-homepage-desktop2x.webp) ;
+    background-size: cover;
+    height: 43.75rem;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    background-position: center;
+}
+.hero-section2{
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/razer-blade16-lamborghini-homepage-desktop2x.webp);
+    background-size: cover;
+    height: 43.75rem;
+    width: 100%;
+    max-width: 100%;
+    background-position: center;
+    }
+.hero-section3{
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/65d476e8aff78d448b6b3233350f1bb0/fujin-pro-b-950x580-desktop.webp);
+    height:31.25rem;
+    background-size: cover;
+    width: 50%;
+    align-items: center;
+    display: inline;
+    float: left;
+    max-width: 100%;
+    background-position: center;
+}
+
+.hero-section4{
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/2fb5601db7a84213129e2f26d31f050f/mercury-blade16-blade18-b-950x580-desktop.webp);
+height: 31.25rem;
+background-size: cover;
+width: 50%;
+float: right;
+max-width: 50%;
+background-position: center;
+}
+.hero-section5{
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/ab20c0e7b6887e4438c7bb329c59b288/razer-blade-14-2023-b-950x580-desktop.webp);
+    height: 31.25rem;
+    width: 50%;
+    float: left;
+    display: inline;
+    max-width: 100%;
+    background-position: center;
+}
+.hero-section6{
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/bbffede42365ea3ed65d0b13ab080c48/razer-hyperpolling-technology-b-950x580-desktop.webp);
+    height: 31.25rem;
+    width: 50%;
+    float: right;
+    max-width: 100%;
+    background-position: center;
+}
+.hero-section7{
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/65d476e8aff78d448b6b3233350f1bb0/axon-ashoka-950x580-desktop.webp);
+    height: 31.25rem;
+    width: 50%;
+    display: inline;
+    float: left;
+    max-width: 100%;
+    background-position: center;
+}
+.hero-section8{
+    background-image: url(https://assets2.razerzone.com/images/pnx.assets/65d476e8aff78d448b6b3233350f1bb0/ebonus-card-b-950x580-desktop.webp);
+    height: 31.25rem;
+    width: 50%;
+    float: right;
+    max-width: 100%;
+    background-position: center;
+    }
+.hero-msg4{
+    font-size: 300%; 
+   color: white;
+   font-weight: bold;
+   text-align: center;
+}
+.hero-msg5{
+    font-size:x-large;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0.625rem;
+}
+.hero-msg6{
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    margin-top: 0.625rem;
+}
+.hero-section21{
+        background-color: #FFAE42;
+        height: 2.5rem;
+        width: 6.25rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-size: cover;
+        font-size: small;
+        font-weight:bolder;
+        text-align: center;
+        margin-top: 1.25rem;
+    }
+.hero-msg7{
+    font-size: 300%; 
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 1.25rem;
+}
+.hero-msg8{
+    font-size:x-large;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display:inline;
+    margin-top: 0.625rem;
+}
+.hero-msg9{
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+.hero-msg10{
+    font-size: 200%; 
+   color: white;
+   font-weight: bold;
+   text-align: center;
+   margin-top: 1.25rem;
+}
+.hero-msg11{
+    font-size:large;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display:inline;
+}
+.hero-msg12{
+    font-size: large;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+.hero-msg13{
+    font-size: 200%; 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.25rem;
+}
+.hero-msg14{font-size:large;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display:inline;
+}
+.hero-msg15{font-size: large;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+.hero-msg16{font-size: 200%; 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.25rem;
+}
+.hero-msg17{font-size:large;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display:inline;
+}
+.hero-msg18{font-size: large;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+.hero-msg19{font-size: 200%; 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.25rem;
+}
+.hero-msg20{font-size:large;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display:inline;
+}
+.hero-msg21{font-size: large;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+.hero-msg22{font-size: 200%; 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.25rem;
+}
+.hero-msg23{font-size:large;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display:inline;
+}
+.hero-msg24{font-size: large;
+    color: white;
+    text-align: center;
+    display: inline;
+    
+}
+.hero-msg25{font-size: 200%; 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top:1.25rem;
+}
+.hero-msg26{font-size:large;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display:inline;
+    margin-top: 3.125rem;
+}
+.hero-msg27{font-size: large;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+footer {
+    clear: both;
+  }
+  .foot-panel1{
+    background-color: #111111;
+    color: white;
+    display: flex;
+    height: 21.875rem;
+    justify-content: space-evenly;
+    }
+ul a {
+    display: block;
+    font-size: 0.7rem ;
+    margin-top: 1.25rem ;
+}
+ul p{
+    font-size: 0.8rem;
+    margin-top: 1.25rem;
+}
+.copyright{
+    background-color: #111111;
+    color: white;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.heroborder{
+    background-color: #444444;
+    height: 1.875rem;
+    background-size: cover;
+}
+.hero-border1{
+    background-color: #444444;
+    height: 0.625rem;
+    background-size: cover;
+    }
+    .hero-border2{background-color: #444444;
+        height: 0.625rem;
+        background-size: cover;
+         }
+         .hero-border3{background-color: #444444;
+            height: 0.625rem;
+            background-size: cover;}
+.hero-border4{
+    background-color: #444444;
+    height: 0.625rem;
+    background-size: cover;
+}
+.hero-border5{
+    background-color: #444444;
+    height: 0.625rem;
+    background-size: cover;
+}
+.hero-border6{
+    background-color: #444444;
+    height: 0.625rem;
+    background-size: cover;
+    }
+.hero-border7{
+    background-color: #444444;
+    height: 0.625rem;
+    background-size: cover;
+}
+.hero-border8{
+    background-color: #444444;
+    height: 0.625rem;
+    background-size: cover;
+}
+.hero-border9{
+    background-color: #444444;
+    height: 0.313rem;
+    background-size: cover;
+    }
+    .vl {
+        border-left: 6px solid grey;
+        
+        height: 31.25rem;
+        position: absolute;
+        left: 50%;
+        margin-left: -0.188rem;
+      }
+      .vl1{
+        border-left: 6px solid grey;
+        height: 31.25rem;
+        position: absolute;
+        left: 50%;
+        margin-left: -0.188rem;
+ }
+ .vl2{border-left: 0.375rem solid grey;
+    height: 31.25rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -0.188rem;
+}
+.foot-panelborder{
+    background-color: white;
+    height: 0.031rem;
+}
+.navborder2{
+background-color: #44D62C;
+height:0.063rem;
+}
+ul1 p{
+    color:#44D62C;
+    margin-top: 1.25rem;
+}
+.navborder3{
+    background-color: #b06bf4;
+    height: 0.063rem;
+}
+
+ul2 p{
+    margin-top: 1.25rem;
+    margin-left: 1.25rem;
+    font-size: 0.85rem;
+}
+ul2 i{
+    margin-left: 2.5rem;
+}
+@media screen and  (max-width: 600px) {
+    
+     .navbar a{
+        display: none;
+     }
+     .footer ul,ul1,ul2 a{
+display: none;
+     }
+    
+}
+  
+  
+
+
+
+
+
+    
+
+
